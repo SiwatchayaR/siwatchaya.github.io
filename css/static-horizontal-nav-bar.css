@@ -1,0 +1,38 @@
+header {
+  color: black;
+  margin-bottom: 10px;
+  padding: 5px;
+  text-align: left;
+}
+body {
+  background-color: rgb(246, 235, 237);
+  font-family: "Courier New", Courier, monospace;
+  margin: 0px;
+}
+ul {
+  list-style-type: none;
+  background-color: black;
+  margin: 0px;
+  padding: 0px;
+  overflow: hidden;
+}
+li {
+  float: left;
+  padding: 14px 0px;
+}
+li a {
+  display: inline;
+  color: white;
+  text-align: center;
+  padding: 14px;
+  text-decoration: none;
+  font-size: 20px;
+}
+
+li a.active {
+  background-color: palevioletred;
+}
+
+li a:hover {
+  background-color: gray;
+}

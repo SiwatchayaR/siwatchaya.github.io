@@ -1,0 +1,38 @@
+header {
+  color: rgb(77, 18, 33);
+  text-align: center;
+}
+body {
+  background-color: brown;
+  width: 100%;
+  margin: auto;
+}
+.content {
+  border-color: black;
+  border: 4px solid;
+}
+div {
+  font-family: "Courier New", Courier, monospace;
+  text-align: center;
+  background-color: rgb(240, 176, 148);
+  width: 70%;
+  margin: auto;
+}
+img {
+  align-items: center;
+  margin-bottom: 4px;
+}
+#heading {
+  color: brown;
+}
+li {
+  text-align: left;
+}
+.popular {
+  display: block;
+  text-align: left;
+  margin-block: 5px;
+  padding: 6px;
+  border-style: dotted;
+  border-color: red;
+}

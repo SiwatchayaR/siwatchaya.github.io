@@ -1,0 +1,37 @@
+header {
+  color: rgb(77, 18, 33);
+  background-color: pink;
+  margin-bottom: 10px;
+  padding: 5px;
+  text-align: center;
+}
+body {
+  background-color: lightgray;
+  font-family: "Courier New", Courier, monospace;
+}
+#fav_course {
+  border-collapse: collapse;
+  width: 100%;
+}
+#fav_course td,
+#fav_course th {
+  border: 1px solid #ddd;
+  padding: 8px;
+}
+
+#fav_course tr:nth-child(even) {
+  background-color: #f2f2f2;
+}
+#fav_course tr:hover {
+  background-color: #ddd;
+}
+#fav_course th {
+  padding-top: 12px;
+  padding-bottom: 12px;
+  text-align: center;
+  background-color: #4caf50;
+  color: white;
+}
+#fav_course td:nth-child(4) {
+  text-align:right;
+}
